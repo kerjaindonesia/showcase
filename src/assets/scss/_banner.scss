@@ -14,7 +14,7 @@
 		margin-top: 70px;
 	}
 	& .banner-overlay{
-		height: 800px;
+		height: 700px;
 		background-color: rgba(0, 13, 47,.5);
 		display: flex;
 		align-items: center;
@@ -302,7 +302,7 @@
 .banner-area-3{
 	& .banner-overlay{
 		background-color: rgba(0, 16, 52,.9);
-		height: 900px;
+		height: 700px;
 		position: relative;
 		z-index: 10;
 		display: flex;
@@ -519,9 +519,10 @@
 	& .banner-overlay{
 		display: flex;
 		align-items: center;
-		height: 900px;
-		background: linear-gradient(90deg, rgba(12,90,219,1) 0%, rgba(12,90,219,.6) 50%, rgba(255,255,255,0) 100%);
-		@media #{$xs} {
+		height: 700px;
+		// background: linear-gradient(90deg, rgba(12,90,219,1) 0%, rgba(12,90,219,.6) 50%, rgba(255,255,255,0) 100%);
+        background: linear-gradient(90deg, #ff2f2f 0%, rgba(127, 12, 219, 0.6) 50%, rgba(255, 255, 255, 0) 100%);
+        @media #{$xs} {
 			height: 700px;
 		}
 		& .banner-content{

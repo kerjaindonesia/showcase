@@ -6,7 +6,8 @@ import Header from '../../common/header/Index';
 
 import AboutExperiencePart from '../../componets/aboutExperiencePart/Index';
 import AboutIntroPart from '../../componets/aboutIntroPart/Index';
-import AbotFaqPart from '../../componets/abotFaqPart/Index';
+import AboutHistoryPart from "../../componets/aboutHistoryPart/Index";
+
 
 
 class AboutPage extends React.Component {
@@ -49,7 +50,7 @@ class AboutPage extends React.Component {
           }
             <AboutExperiencePart/>
             <AboutIntroPart/>
-            <AbotFaqPart/>
+            <AboutHistoryPart />
             <Footer/>
             </>
          );

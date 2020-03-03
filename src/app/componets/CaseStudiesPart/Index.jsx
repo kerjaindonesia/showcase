@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class CaseStudiesPart extends Component {
+class CaseStudiesPart extends React.Component {
 
     render() { 
         return ( 
@@ -91,23 +91,7 @@ class CaseStudiesPart extends Component {
                   </div>
                   {/* single case studies */}
                 </div>
-                <div className="col-lg-3">
-                  <div className="single-case-studies mt-30">
-                    <img src="assets/images/case-studies-2.jpg" alt="case-studies" />
-                    <div className="case-overlay">
-                      <div className="item">
-                        <span>Product Design</span>
-                        <h5 className="title">
-                          Develop Your IT <br /> Business Growth
-                        </h5>
-                      </div>
-                      <Link  to={"case-details"}>
-                        <i className="fal fa-long-arrow-right" />
-                      </Link>
-                    </div>
-                  </div>
-                  {/* single case studies */}
-                </div>
+                
               </div>
               {/* row */}
             </div>

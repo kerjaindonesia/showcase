@@ -52,7 +52,7 @@ class WhoWeAreArea extends React.Component {
                 >
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon  icon={faLaptopCode} />
-                    <h5 className="title">IT Soluations</h5>
+                    <h5 className="title">Learning Solution</h5>
                     <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>
@@ -67,7 +67,7 @@ class WhoWeAreArea extends React.Component {
                 >
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon icon={faFingerprint}  />
-                    <h5 className="title">Security System</h5>
+                    <h5 className="title">Marketplace</h5>
                     <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>
@@ -82,7 +82,7 @@ class WhoWeAreArea extends React.Component {
                 >
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon icon={faChalkboard} />
-                    <h5 className="title">Web Development</h5>
+                    <h5 className="title">Digitalization</h5>
                     <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>
@@ -97,7 +97,7 @@ class WhoWeAreArea extends React.Component {
                 >
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon icon={faDatabase} />
-                    <h5 className="title">Database Security</h5>
+                    <h5 className="title">Wholesale</h5>
                     <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>

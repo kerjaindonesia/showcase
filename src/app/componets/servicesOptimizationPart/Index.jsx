@@ -29,7 +29,7 @@ class ServicesOptimizationPart extends React.Component {
                     </p>
                     <div className="action-support-item">
                       <p>Make A Call</p>
-                      <span>897 876 76 56 4</span>
+                      <span>+62 21 79187250</span>
                       <i className="fal fa-phone" />
                     </div>
                   </div>

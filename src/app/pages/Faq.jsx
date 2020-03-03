@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../common/footer/Index';
 import Header from '../common/header/Index';
-import ServicesItemPart from '../componets/servicesItemPart/Index';
 import { Link } from 'react-router-dom';
 
 
@@ -492,7 +491,6 @@ class FaqPage extends React.Component {
         </div>;
 
 
-        <ServicesItemPart/>
         <Footer/>
         </>
       );

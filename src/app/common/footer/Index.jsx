@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logoKji from '../../../assets/images/logokji.png'
+
 class Footer extends React.Component {
 
   render() { 
@@ -12,7 +14,7 @@ class Footer extends React.Component {
               <div className="row">
                 <div className="col-lg-4 col-md-7">
                   <div className="widget-item-1 mt-30">
-                    <img src="assets/images/logo-1.1.png" alt="" />
+                    <img src={logoKji} alt="" />
                     <p>The web has changed a lot since Vitaly posted his first article back in 2006. The team at Smashing has changed too, as have the things that we bring to our community onferences, books, and our membership added to the online magazine.</p>
                     <p>One thing that hasn’t changed is that we’re a small team — with most of us not working</p>
                   </div> {/* widget item 1 */}
@@ -54,7 +56,7 @@ class Footer extends React.Component {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="footer-copyright">
-                    <p>Copyright By@ <span>Becore</span> - {(new Date().getFullYear())}</p>
+                    <p>Copyright <span>Kerjaindonesia</span> - {(new Date().getFullYear())}</p>
                   </div> {/* footer copyright */}
                 </div>
               </div> {/* row */}

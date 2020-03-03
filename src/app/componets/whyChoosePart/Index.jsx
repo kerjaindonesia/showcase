@@ -16,7 +16,7 @@ class WhyChoosePart extends React.Component {
                   <div className="section-title text-center">
                     <span>why choose us</span>
                     <h2 className="title">
-                      We Are Very Different Form Others IT Solutions
+                      We Are Very Different Form Others Learning Solutions
                     </h2>
                   </div>
                 </div>

@@ -38,7 +38,7 @@ class LatestServicesPart extends React.Component {
                       <img src="/assets/images/services-4.1.jpg" alt="" />
                     </div>
                     <div className="services-content">
-                      <h4 className="title">Desktop Computing</h4>
+                      <h4 className="title">LMS Platform</h4>
                       <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
@@ -62,7 +62,7 @@ class LatestServicesPart extends React.Component {
                       <img src="assets/images/services-4.2.jpg" alt="" />
                     </div>
                     <div className="services-content">
-                      <h4 className="title">Infrastructure Planning</h4>
+                      <h4 className="title">Online Recruitment</h4>
                       <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
@@ -108,7 +108,7 @@ class LatestServicesPart extends React.Component {
                       <img src="/assets/images/services-4.4.jpg" alt="" />
                     </div>
                     <div className="services-content">
-                      <h4 className="title">It Management System</h4>
+                      <h4 className="title">Webinar</h4>
                       <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
@@ -131,7 +131,7 @@ class LatestServicesPart extends React.Component {
                       <img src="/assets/images/services-4.5.jpg" alt="" />
                     </div>
                     <div className="services-content">
-                      <h4 className="title">Web Development</h4>
+                      <h4 className="title">API Content</h4>
                       <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
@@ -154,7 +154,7 @@ class LatestServicesPart extends React.Component {
                       <img src="/assets/images/services-4.6.jpg" alt="" />
                     </div>
                     <div className="services-content">
-                      <h4 className="title">Dedicated IT Solution</h4>
+                      <h4 className="title">Content Digitalization</h4>
                       <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae

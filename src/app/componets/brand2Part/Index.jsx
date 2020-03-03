@@ -1,6 +1,17 @@
 import React from 'react';
 import Slider from "react-slick";
 
+
+import CorpuLogo from '../../../assets/images/Corpu.png'
+import Imi from '../../../assets/images/Imi.png'
+import Lsppm from '../../../assets/images/Lsppm.png'
+import Lsptii from '../../../assets/images/Lsptii.png'
+import Mastel from '../../../assets/images/Mastel.png'
+import Metranet from '../../../assets/images/Metranet.png'
+import Tbi from '../../../assets/images/Tbi.png'
+import TelkomIndonesia from '../../../assets/images/TelkomIndonesia.png'
+
+
 class Brand2Part extends React.Component {
 
     render() { 
@@ -24,25 +35,28 @@ class Brand2Part extends React.Component {
                 <div className="col-lg-12">
                   <Slider className="brand-active" {...settings}>
                     <div className="brand-item">
-                      <img src="assets/images/brand-item-1.png" alt="brand name" />
+                      <img src={CorpuLogo} alt="brand name" />
                     </div>
                     <div className="brand-item">
-                      <img src="assets/images/brand-item-2.png" alt="brand name" />
+                      <img src={Imi} alt="brand name" />
                     </div>
                     <div className="brand-item">
-                      <img src="assets/images/brand-item-3.png" alt="brand name" />
+                      <img src={Lsppm} alt="brand name" />
                     </div>
                     <div className="brand-item">
-                      <img src="assets/images/brand-item-4.png" alt="brand name" />
+                      <img src={Lsptii} alt="brand name" />
                     </div>
                     <div className="brand-item">
-                      <img src="assets/images/brand-item-5.png" alt="brand name" />
+                      <img src={Mastel} alt="brand name" />
                     </div>
                     <div className="brand-item">
-                      <img src="assets/images/brand-item-6.png" alt="brand name" />
+                      <img src={Metranet} alt="brand name" />
                     </div>
                     <div className="brand-item">
-                      <img src="assets/images/brand-item-3.png" alt="brand name" />
+                      <img src={Tbi} alt="brand name" />
+                    </div>
+                    <div className="brand-item">
+                      <img src={TelkomIndonesia} alt="brand name" />
                     </div>
                     </Slider>
                   {/* brand item */}

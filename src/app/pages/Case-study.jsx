@@ -3,6 +3,7 @@ import NewsPart from '../componets/NewsPart/Index';
 import Footer from '../common/footer/Index';
 import Header from '../common/header/Index';
 import { Link } from 'react-router-dom';
+import Portfolio from '../componets/portfolio/Index';
 
 class CaseStudy extends React.Component {
 
@@ -42,6 +43,7 @@ class CaseStudy extends React.Component {
         {
           /*====== PAGE TITLE PART ENDS ======*/
         }
+        <Portfolio/>
             <NewsPart/>
             <Footer/>
             </>

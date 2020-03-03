@@ -20,7 +20,7 @@ class BlogStandard extends React.Component {
           <div className="row">
             <div className="col-lg-12">
               <div className="page-title-item text-center">
-                <h2 className="title">News Standard</h2>
+                <h2 className="title">News</h2>
                 <nav aria-label="breadcrumb">
 
                 

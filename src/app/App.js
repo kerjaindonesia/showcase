@@ -10,7 +10,6 @@ import Index3 from './pages/home/Index-3';
 import Index4 from './pages/home/Index-4';
 import AboutPage from './pages/about/About';
 import ContactPage from './pages/Contact';
-import ServicesPage from './pages/service/Index';
 import ServicesDetails from './pages/service/Details';
 import CaseStudy from './pages/Case-study';
 import CaseDetails from './pages/Case-details';
@@ -42,7 +41,6 @@ class App extends Component {
 				  <Route path={`${process.env.PUBLIC_URL}/index4`} component={Index4}/>
 
 				  <Route path={`${process.env.PUBLIC_URL}/about`} component={AboutPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/services`} component={ServicesPage}/>
 				  <Route path={`${process.env.PUBLIC_URL}/services-details`} component={ServicesDetails}/>
 
 				  <Route path={`${process.env.PUBLIC_URL}/case-study`} component={CaseStudy}/>
