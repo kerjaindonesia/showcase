@@ -32,36 +32,36 @@ class App extends Component {
 		return (
 			<BrowserRouter basename={'/'} >
 				<Switch>
-				  <Route exact path={`${process.env.PUBLIC_URL}/`} component={Index1}/>
-				  <Route path={`${process.env.PUBLIC_URL}/index`} component={Index1}/>
-				  <Route path={`${process.env.PUBLIC_URL}/home`} component={Index1}/>
-				  <Route path={`${process.env.PUBLIC_URL}/home-1`} component={Index1}/>
-				  <Route path={`${process.env.PUBLIC_URL}/index2`} component={Index2}/>
-				  <Route path={`${process.env.PUBLIC_URL}/index3`} component={Index3}/>
-				  <Route path={`${process.env.PUBLIC_URL}/index4`} component={Index4}/>
+				  <Route exact path={`/`} component={Index1}/>
+				  <Route path={`/index`} component={Index1}/>
+				  <Route path={`/home`} component={Index1}/>
+				  <Route path={`/home-1`} component={Index1}/>
+				  <Route path={`/index2`} component={Index2}/>
+				  <Route path={`/index3`} component={Index3}/>
+				  <Route path={`/index4`} component={Index4}/>
 
-				  <Route path={`${process.env.PUBLIC_URL}/about`} component={AboutPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/services-details`} component={ServicesDetails}/>
+				  <Route path={`/about`} component={AboutPage}/>
+				  <Route path={`/services-details`} component={ServicesDetails}/>
 
-				  <Route path={`${process.env.PUBLIC_URL}/case-study`} component={CaseStudy}/>
-				  <Route path={`${process.env.PUBLIC_URL}/case-details`} component={CaseDetails}/>
-				  <Route path={`${process.env.PUBLIC_URL}/coming-soon`} component={ComingSoon}/>
-				  <Route path={`${process.env.PUBLIC_URL}/error`} component={NoMatch}/>
-				  <Route path={`${process.env.PUBLIC_URL}/faq`} component={FaqPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/pricing`} component={PricingPage}/>
+				  <Route path={`/case-study`} component={CaseStudy}/>
+				  <Route path={`/case-details`} component={CaseDetails}/>
+				  <Route path={`/coming-soon`} component={ComingSoon}/>
+				  <Route path={`/error`} component={NoMatch}/>
+				  <Route path={`/faq`} component={FaqPage}/>
+				  <Route path={`/pricing`} component={PricingPage}/>
 
-				  <Route path={`${process.env.PUBLIC_URL}/products`} component={ProductPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/products-details`} component={ProductDetailPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/shop`} component={ShopPage}/>
+				  <Route path={`/products`} component={ProductPage}/>
+				  <Route path={`/products-details`} component={ProductDetailPage}/>
+				  <Route path={`/shop`} component={ShopPage}/>
 
-				  <Route path={`${process.env.PUBLIC_URL}/shop-details`} component={ShopDetailsPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/team`} component={TeamPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/team-details`} component={TeamDetailsPage}/>
-				  <Route path={`${process.env.PUBLIC_URL}/blog-standard`} component={BlogStandard}/>
-				  <Route path={`${process.env.PUBLIC_URL}/blog-grid`} component={BlogGrid}/>
-				  <Route path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
+				  <Route path={`/shop-details`} component={ShopDetailsPage}/>
+				  <Route path={`/team`} component={TeamPage}/>
+				  <Route path={`/team-details`} component={TeamDetailsPage}/>
+				  <Route path={`/blog-standard`} component={BlogStandard}/>
+				  <Route path={`/blog-grid`} component={BlogGrid}/>
+				  <Route path={`/blog-details`} component={BlogDetails}/>
 
-				  <Route path={`${process.env.PUBLIC_URL}/contact`} component={ContactPage}/>
+				  <Route path={`/contact`} component={ContactPage}/>
 
 				  <Route component={NoMatch} />
 				</Switch>
