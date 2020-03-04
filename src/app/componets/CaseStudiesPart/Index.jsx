@@ -7,11 +7,13 @@ class CaseStudiesPart extends React.Component {
         return ( 
           <div className="case-studies-area">
             <div className="container">
-              <div className="row">
-                <div className="col-lg-5">
-                  <div className="section-title">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="section-title text-center">
                     <span>Latest Case Studies</span>
-                    <h2 className="title">Reads Our Recent Case Studies </h2>
+                    <h2 className="title">
+                        Reads Our Recent Case Studies 
+                    </h2>
                   </div>
                   {/* section title */}
                 </div>

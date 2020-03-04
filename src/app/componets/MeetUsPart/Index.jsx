@@ -14,10 +14,10 @@ class MeetUsPart extends React.Component {
                 style={{ backgroundImage: "url(/assets/images/meet-us-bg.jpg)" }}
               >
                 <h2 className="title">
-                  Preparing For Your <br /> Business Success
+                  Persiapkan untuk <br /> Kesuksesan Anda
                 </h2>
                 <Link className="main-btn" to={"contact"}>
-                  Meet With Us <i className="fal fa-long-arrow-right" />
+                  Temui Kami <i className="fal fa-long-arrow-right" />
                 </Link>
               </div>
             </div>

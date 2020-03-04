@@ -19,9 +19,9 @@ class WhoWeAreArea extends React.Component {
                   data-wow-delay="0s"
                 >
                   <div className="section-title">
-                    <span>who we are</span>
+                    <span>siapa kami</span>
                     <h2 className="title">
-                      We Work Hard Play Hard Explore Creative Mmind
+                      Kami adalah Solusi pengembangan skill
                     </h2>
                   </div>
                   {/* section title */}
@@ -33,12 +33,10 @@ class WhoWeAreArea extends React.Component {
                 >
                   <div className="section-title">
                     <p>
-                      Perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                      dolorem-quelaudantium, totam rem aperiam eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta sunt
-                      explicabo. Nemo enim ipsam voluptatem quiavoluptas sit aspernatur
-                      aut odit aut fugit, sed quia quuntur magni dolores eos ratione
-                      voluptatem sequi nesciunt eque porroe.
+                      Kerjaindonesia menggabungkan berbagai materi dan sertifikasi berkualitas untuk memberikan anda 
+                      pengalaman digital learning yang sesuai dengan kebutuhan anda dan organisasi anda. Materi dan sertifikat yang ada di Kerjaindonesia
+                      bersumber dari penyedia materi dan sertifikas terpercaya. platform digital learning yang memungkinkan 
+                      individu dan organisasi untuk melakukan pembelajaran secara online dan mendapatkan sertifikat dimanapun dan kapanpun
                     </p>
                   </div>
                   {/* section title */}
@@ -52,8 +50,8 @@ class WhoWeAreArea extends React.Component {
                 >
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon  icon={faLaptopCode} />
-                    <h5 className="title">Learning Solution</h5>
-                    <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
+                    <h5 className="title">Learning Platform</h5>
+                    <p>Platform pembelajaran digital yang terintegrasi</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>
                     </Link>
@@ -68,7 +66,7 @@ class WhoWeAreArea extends React.Component {
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon icon={faFingerprint}  />
                     <h5 className="title">Marketplace</h5>
-                    <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
+                    <p>100.000 Materi bertambah setiap bulannya</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>
                     </Link>
@@ -83,7 +81,7 @@ class WhoWeAreArea extends React.Component {
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon icon={faChalkboard} />
                     <h5 className="title">Digitalization</h5>
-                    <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
+                    <p>Sesuaikan konten anda dengan tren industri 4.0</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>
                     </Link>
@@ -97,8 +95,8 @@ class WhoWeAreArea extends React.Component {
                 >
                   <div className="what-we-do-item text-center mt-30">
                     <FontAwesomeIcon icon={faDatabase} />
-                    <h5 className="title">Wholesale</h5>
-                    <p>Sed ut perspiciatis unde omnis iste natus error volup</p>
+                    <h5 className="title">Use Case Solution</h5>
+                    <p>Solusi pengembangan skill organisasi anda</p>
                     <Link to={"case-details"}>
                       <FontAwesomeIcon icon={faLongArrowAltRight}/>
                     </Link>

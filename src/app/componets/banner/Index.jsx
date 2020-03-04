@@ -1,190 +1,52 @@
 import React from 'react';
-import Slider from "react-slick";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faAngleLeft,
-    faAngleRight,
-    faLongArrowAltRight,
-} from '@fortawesome/free-solid-svg-icons';
+import { faBookOpen, faCode } from '@fortawesome/free-solid-svg-icons';
+// import LogoKjiAuth from '../../../assets/images/logokji.png'
+
+class Banner2 extends React.Component {
+
+    render() { 
+        return ( 
+          <div className="banner-area">
+            <div className="container position-relative">
+              <div className="row">
+                <div className="col-lg-10">
+                  <div className="banner-content pt-100">
+                    <span className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s" style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.1s', animationName: 'fadeInLeft'}}>
+                        Produk Pembelajaran digital, Konten dan Solusi.
+                    </span>
+                    <h1 className="title wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s" style={{visibility: 'visible', animationDuration: '2s', animationDelay: '0.5s', animationName: 'fadeInLeft'}}>
+                        Dapatkan semua service disini
+                    </h1>
+                    <ul>
+                      <li>
+                          <Link className="fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s" to={"about"}
+                                style={{visibility: 'visible', animationDuration: '1s', animationDelay: '1s', animationName: 'fadeInUp'}}>
+                              <span>
 
 
-
-
-function NextArrow(props) {
-    const { style, onClick } = props;
-    return (
-        <span onClick={onClick} className="next slick-arrow" style={style}>
-            <FontAwesomeIcon icon={faAngleRight} />
-        </span>
-    );
-}
-
-function PrevArrow(props) {
-    const { style, onClick } = props;
-    return (
-        <span onClick={onClick} className="prev slick-arrow" style={style}>
-            <FontAwesomeIcon icon={faAngleLeft} />
-        </span>
-    );
-}
-
-
-class Banner extends React.Component {
-
-
-    render() {
-
-        var settings = {
-            autoplay: true,
-            autoplaySpeed: 10000,
-            fade: true,
-            arrows: true,
-            initialSlide: 0,
-            dots: false,
-            draggable: true,
-            nextArrow: <NextArrow />,
-            prevArrow: <PrevArrow />,
-            responsive: [
-                {
-                    breakpoint: 1330,
-                    settings: {
-                        arrows: false
-                    }
-                }
-            ],
-            //  className: 'slick-slider-fade',
-        };
-
-
-        return (
-            <>
-                <Slider className="banner-active"  {...settings}>
-                    <div className="single-banner bg_cover bg_img_1 ">
-                        <img src="" alt="" />
-                        <div className="banner-overlay">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-lg-9">
-                                        <div className="banner-content">
-                                            <span data-animation="fadeInLeft" data-delay="0.5s">
-                                                Digital Learning
-                                            </span>
-                                            <h1
-                                                data-animation="fadeInLeft"
-                                                data-delay="0.9s"
-                                                className="title"
-                                            >
-                                                Best Learning Soluations
-                                            </h1>
-                                            <p data-animation="fadeInLeft" data-delay="1.3s">
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremda tium totam rem aperiam eaque ipsa quae ab
-                                                illo inventore veritatis
-                                            </p>
-                                            <Link
-                                                data-animation="fadeInUp"
-                                                data-delay="1.6s"
-                                                className="main-btn"
-                                                to={"services"}
-                                            >
-                                                Our Services <FontAwesomeIcon icon={faLongArrowAltRight} />
-                                            </Link>
-                                        </div>
-                                        {/* banner content */}
-                                    </div>
-                                </div>
-                                {/* row */}
-                            </div>
-                            {/* container */}
-                        </div>
-                    </div>
-
-                    <div className="single-banner bg_cover  bg_img_2">
-                        <div className="banner-overlay">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-lg-9">
-                                        <div className="banner-content">
-                                            <span data-animation="fadeInLeft" data-delay="0.5s">
-                                                Marketplace
-                                            </span>
-                                            <h1
-                                                data-animation="fadeInLeft"
-                                                data-delay="0.9s"
-                                                className="title"
-                                            >
-                                                Best Content <br />
-                                                Marketplace
-                          </h1>
-                                            <p data-animation="fadeInLeft" data-delay="1.3s">
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremda tium totam rem aperiam eaque ipsa quae ab
-                                                illo inventore veritatis
-                          </p>
-                                            <Link
-                                                data-animation="fadeInUp"
-                                                data-delay="1.6s"
-                                                className="main-btn"
-                                                to={"services"}
-                                            >
-                                                Our Services <FontAwesomeIcon icon={faLongArrowAltRight} />
-                                            </Link>
-                                        </div>
-                                        {/* banner content */}
-                                    </div>
-                                </div>
-                                {/* row */}
-                            </div>
-                            {/* container */}
-                        </div>
-                    </div>
-
-
-                    <div className="single-banner bg_cover  bg_img_3" >
-                        <div className="banner-overlay">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-lg-9">
-                                        <div className="banner-content">
-                                            <span data-animation="fadeInLeft" data-delay="0.5s">
-                                                Learning Environment Consulting
-                                             </span>
-                                            <h1
-                                                data-animation="fadeInLeft"
-                                                data-delay="0.9s"
-                                                className="title"
-                                            >
-                                                Learning  <br />
-                                                Provider Agency
-                                            </h1>
-                                            <p data-animation="fadeInLeft" data-delay="1.3s">
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremda tium totam rem aperiam eaque ipsa quae ab
-                                                illo inventore veritatis
-                                            </p>
-                                            <Link
-                                                data-animation="fadeInUp"
-                                                data-delay="1.6s"
-                                                className="main-btn"
-                                                to={"services"}
-                                            >
-                                                Our Services <FontAwesomeIcon icon={faLongArrowAltRight} />
-                                            </Link>
-                                        </div>
-                                        {/* banner content */}
-                                    </div>
-                                </div>
-                                {/* row */}
-                            </div>
-                            {/* container */}
-                        </div>
-                    </div>
-
-                </Slider>
-            </>
-        );
+                          <FontAwesomeIcon icon={faBookOpen} />
+                      </span>
+                          <p>Platform</p>
+                        </Link></li>
+                      <li><Link className="btn-2 fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.5s" to={"erorr"} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '1.5s', animationName: 'fadeInUp'}}><span>
+                           <FontAwesomeIcon icon={faCode} />
+                      </span>
+                          <p>Marketplace</p>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div> 
+                </div>
+              </div> 
+              {/* <div className="banner-shape d-none d-lg-block">
+                <img src={LogoKjiAuth} alt="" />
+              </div> */}
+            </div> 
+          </div>
+         );
     }
 }
-
-export default Banner;
+ 
+export default Banner2;

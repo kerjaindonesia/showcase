@@ -14,9 +14,9 @@ class WhyChoosePart extends React.Component {
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <div className="section-title text-center">
-                    <span>why choose us</span>
+                    <span>mengapa memilih kami</span>
                     <h2 className="title">
-                      We Are Very Different Form Others Learning Solutions
+                      Kami menawarkan solusi pengembangan skill anda dan organisasi
                     </h2>
                   </div>
                 </div>
@@ -32,11 +32,11 @@ class WhyChoosePart extends React.Component {
                       <span />
                       <FontAwesomeIcon icon={faLaptopCode} size={`4x`} style={{ color: 'white'}}/>
                     </div>
-                    <h4 className="title">Modify Whole System</h4>
-                    <p>
+                    <h4 className="title">End to end solution</h4>
+                    {/* <p>
                       Sed ut perspiciatis unde omnis iste natus error voluptatem
                       accusantium doloremque laudan-tium totam rem aperiam eaque ipsa
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div
@@ -50,10 +50,10 @@ class WhyChoosePart extends React.Component {
                       <FontAwesomeIcon icon={faServer} size={`4x`} style={{ color: 'white'}}/>
                     </div>
                     <h4 className="title">Beneficial Strategies</h4>
-                    <p>
+                    {/* <p>
                       Sed ut perspiciatis unde omnis iste natus error voluptatem
                       accusantium doloremque laudan-tium totam rem aperiam eaque ipsa
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div
@@ -67,10 +67,10 @@ class WhyChoosePart extends React.Component {
                       <FontAwesomeIcon icon={faTools} size={`4x`} style={{ color: 'white'}}/>
                     </div>
                     <h4 className="title">Automated Software</h4>
-                    <p>
+                    {/* <p>
                       Sed ut perspiciatis unde omnis iste natus error voluptatem
                       accusantium doloremque laudan-tium totam rem aperiam eaque ipsa
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

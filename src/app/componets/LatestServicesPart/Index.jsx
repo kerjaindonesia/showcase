@@ -18,8 +18,8 @@ class LatestServicesPart extends React.Component {
                 <div className="col-lg-12">
                   <div className="services-title-item text-center">
                     <div className="ring-shape" />
-                    <span>Our latest services</span>
-                    <h3 className="title">We Offer Better Soluation For Your Skill Development</h3>
+                    {/* <span>Layanan terbaru kami</span> */}
+                    <h3 className="title">Layanan terbaru kami</h3>
                   </div> 
                 </div>
               </div> 
@@ -40,9 +40,7 @@ class LatestServicesPart extends React.Component {
                     <div className="services-content">
                       <h4 className="title">LMS Platform</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
-                        inventore
+                        Digital Learning Platform untuk pengalaman pembelajaran digital organisasi anda yang lebih baik
                       </p>
                       <Link to={"services-details"}>
                         Read More
@@ -64,9 +62,7 @@ class LatestServicesPart extends React.Component {
                     <div className="services-content">
                       <h4 className="title">Online Recruitment</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
-                        inventore
+                        Solusi rekrutmen online yang memudahkan proses pendaftaran, verifikasi maupun seleksi calon karyawan
                       </p>
                       <Link to={"services-details"}>
                         Read More <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`}/>
@@ -87,9 +83,8 @@ class LatestServicesPart extends React.Component {
                     <div className="services-content">
                       <h4 className="title">Big Data &amp; Analytics</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
-                        inventore
+                        Rekam jejak edukasi individu secara nasional untuk kebijakan yang tepat sasaran,
+                        pencarian talent dan pemasaran global
                       </p>
                       <Link to={"services-details"}>
                         Read More <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`}/>
@@ -110,9 +105,7 @@ class LatestServicesPart extends React.Component {
                     <div className="services-content">
                       <h4 className="title">Webinar</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
-                        inventore
+                        Alat flexible yang menyediakan berbagai fitur untuk kebutuhan video conference organisasi anda 
                       </p>
                       <Link to={"services-details"}>
                         Read More <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`}/>
@@ -133,9 +126,7 @@ class LatestServicesPart extends React.Component {
                     <div className="services-content">
                       <h4 className="title">API Content</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
-                        inventore
+                        Allows apps to interact directly with the Content Agregator, vastly increasing the efficiency of managing large or complex accounts
                       </p>
                       <Link to={"services-details"}>
                         Read More <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`}/>
@@ -156,9 +147,7 @@ class LatestServicesPart extends React.Component {
                     <div className="services-content">
                       <h4 className="title">Content Digitalization</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa quae
-                        inventore
+                        Digitalisasi konten sehingga materi yang anda miliki mengikuti perkembangan teknologi di industri 4.0
                       </p>
                       <Link to={"services-details"}>
                         Read More <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`}/>

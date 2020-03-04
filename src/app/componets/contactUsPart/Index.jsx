@@ -2,146 +2,153 @@ import React from 'react';
 import { toast } from 'react-toastify';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
- faEdit, faEnvelopeOpen, faLongArrowAltRight, faPencilAlt, faPhone, faUser,
+    faEdit, faEnvelopeOpen, faLongArrowAltRight, faPencilAlt, faPhone, faUser,
 } from '@fortawesome/free-solid-svg-icons';
 
+import kjiLogoBig from '../../../assets/images/logoKjiAuth.png'
 
 class ContactUsPart extends React.Component {
 
-  formHandle = event => {
-    toast.success("Thank you for contact with us!");
-    event.preventDefault();
-  }
+    formHandle = event => {
+        toast.success("Thank you for contact with us!");
+        event.preventDefault();
+    }
 
-    render() { 
-      return ( 
-        <div className="contact-us-area bg_cover"
-          style={{ backgroundImage: "url(assets/images/contact-bg.jpg)" }}
-        >
-          <div className="contact-overlay">
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="col-lg-6">
-                  <div className="section-title text-center">
-                    <span>contact us</span>
-                    <h2 className="title">Join Us To Get Free Consultations</h2>
-                  </div>
-                  {/* sevtion title */}
-                </div>
-              </div>
-              {/* row */}
-            </div>
-            {/* container */}
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="contact-details d-flex">
-                    <div
-                      className="contact-thumb wow slideInLeft"
-                      data-wow-duration=".5s"
-                      data-wow-delay="0s"
-                    >
-                      <img src="/assets/images/contact-man.jpg" alt="" />
-                    </div>
-                    <div className="contact-form-area">
-                      <form action="" onSubmit={this.formHandle}>
-                        <div className="input-title">
-                          <h3 className="title">
-                            Don't Hesitate To Contact With Us, Say Hello......
-                          </h3>
+    render() {
+        return (
+            <div className="contact-us-area bg_cover"
+                style={{ backgroundImage: "url(assets/images/contact-bg.jpg)" }}
+            >
+                <div className="contact-overlay">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-6">
+                                <div className="section-title text-center">
+                                    <span>hubungi kami</span>
+                                    <h2 className="title">Diskusikan solusi yang anda butuhkan</h2>
+                                </div>
+                                {/* sevtion title */}
+                            </div>
                         </div>
-                        {/* input title */}
+                        {/* row */}
+                    </div>
+                    {/* container */}
+                    <div className="container">
                         <div className="row">
-                          <div className="col-lg-6">
-                            <div className="input-box mt-30">
-                              <input type="text" placeholder="Full Name Here" />
+                            <div className="col-lg-12">
+                                <div className="contact-details d-flex">
+                                    <div
+                                        className="contact-thumb wow slideInLeft bg-primary"
+                                        data-wow-duration=".5s"
+                                        data-wow-delay="0s"
+                                    >
+                                        <img src={kjiLogoBig} alt="" />
+                                    </div>
+                                    <div className="contact-form-area">
+                                        <form action="" onSubmit={this.formHandle}>
+                                            <div className="input-title">
+                                                <h3 className="title">
+                                                    Say Hello......
+                          </h3>
+                                            </div>
+                                            {/* input title */}
+                                            <div className="row">
+                                                <div className="col-lg-6">
+                                                    <div className="input-box mt-30">
+                                                        <input type="text" placeholder="Full Name Here" />
 
-                              <FontAwesomeIcon icon={faUser} style={{ position: "absolute",
-                                right: "0",
-                                top: "15px",
-                                color: "#0c59db"
-                              }}/>
+                                                        <FontAwesomeIcon icon={faUser} style={{
+                                                            position: "absolute",
+                                                            right: "0",
+                                                            top: "15px",
+                                                            color: "#0c59db"
+                                                        }} />
+                                                    </div>
+                                                    {/* input box */}
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <div className="input-box mt-30">
+                                                        <input type="email" placeholder="Email Here" />
+                                                        <FontAwesomeIcon icon={faEnvelopeOpen} style={{
+                                                            position: "absolute",
+                                                            right: "0",
+                                                            top: "15px",
+                                                            color: "#0c59db"
+                                                        }} />
+                                                    </div>
+                                                    {/* input box */}
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <div className="input-box mt-30">
+                                                        <input type="text" placeholder="Phone No" />
+                                                        <FontAwesomeIcon icon={faPhone} style={{
+                                                            position: "absolute",
+                                                            right: "0",
+                                                            top: "15px",
+                                                            color: "#0c59db"
+                                                        }} />
+                                                    </div>
+                                                    {/* input box */}
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <div className="input-box mt-30">
+                                                        <input type="text" placeholder="Subject" />
+                                                        <FontAwesomeIcon icon={faEdit} style={{
+                                                            position: "absolute",
+                                                            right: "0",
+                                                            top: "15px",
+                                                            color: "#0c59db"
+                                                        }} />
+                                                    </div>
+                                                    {/* input box */}
+                                                </div>
+                                                <div className="col-lg-12">
+                                                    <div className="input-box mt-30">
+                                                        <textarea
+                                                            name="index"
+                                                            id="index"
+                                                            cols={30}
+                                                            rows={10}
+                                                            placeholder="Message Us"
+                                                            defaultValue={""}
+                                                        />
+                                                        <FontAwesomeIcon icon={faPencilAlt} style={{
+                                                            position: "absolute",
+                                                            right: "0",
+                                                            top: "15px",
+                                                            color: "#0c59db"
+                                                        }} />
+                                                        <button
+                                                            className="main-btn wow slideInUp"
+                                                            data-wow-duration="1.5s"
+                                                            data-wow-delay="0s"
+                                                            type="submit"
+                                                        >
+                                                            Send Message
+                                <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`} style={{
+                                                                position: "absolute",
+                                                                right: "0",
+                                                                top: "15px",
+                                                                color: "#0c59db"
+                                                            }} />
+                                                        </button>
+                                                    </div>
+                                                    {/* input box */}
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                {/* contact details */}
                             </div>
-                            {/* input box */}
-                          </div>
-                          <div className="col-lg-6">
-                            <div className="input-box mt-30">
-                              <input type="email" placeholder="Email Here" />
-                              <FontAwesomeIcon icon={faEnvelopeOpen} style={{ position: "absolute",
-                                right: "0",
-                                top: "15px",
-                                color: "#0c59db"
-                              }}/>
-                            </div>
-                            {/* input box */}
-                          </div>
-                          <div className="col-lg-6">
-                            <div className="input-box mt-30">
-                              <input type="text" placeholder="Phone No" />
-                              <FontAwesomeIcon icon={faPhone} style={{ position: "absolute",
-                                right: "0",
-                                top: "15px",
-                                color: "#0c59db"
-                              }}/>
-                            </div>
-                            {/* input box */}
-                          </div>
-                          <div className="col-lg-6">
-                            <div className="input-box mt-30">
-                              <input type="text" placeholder="Subject" />
-                              <FontAwesomeIcon icon={faEdit} style={{ position: "absolute",
-                                right: "0",
-                                top: "15px",
-                                color: "#0c59db"
-                              }}/>
-                            </div>
-                            {/* input box */}
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="input-box mt-30">
-                              <textarea
-                                name="index"
-                                id="index"
-                                cols={30}
-                                rows={10}
-                                placeholder="Message Us"
-                                defaultValue={""}
-                              />
-                              <FontAwesomeIcon icon={faPencilAlt} style={{ position: "absolute",
-                                right: "0",
-                                top: "15px",
-                                color: "#0c59db"
-                              }}/>
-                              <button
-                                className="main-btn wow slideInUp"
-                                data-wow-duration="1.5s"
-                                data-wow-delay="0s"
-                                type="submit"
-                              >
-                                Send Message
-                                <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`} style={{ position: "absolute",
-                                  right: "0",
-                                  top: "15px",
-                                  color: "#0c59db"
-                                }}/>
-                              </button>
-                            </div>
-                            {/* input box */}
-                          </div>
                         </div>
-                      </form>
+                        {/* row */}
                     </div>
-                  </div>
-                  {/* contact details */}
+                    {/* container */}
                 </div>
-              </div>
-              {/* row */}
             </div>
-            {/* container */}
-          </div>
-        </div>
         );
     }
 }
- 
+
 export default ContactUsPart;
