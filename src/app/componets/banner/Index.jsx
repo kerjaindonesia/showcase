@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faAngleLeft,
     faAngleRight,
+    faLongArrowAltRight,
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -87,7 +88,7 @@ class Banner extends React.Component {
                                                 className="main-btn"
                                                 to={"services"}
                                             >
-                                                Our Services <i className="fal fa-long-arrow-right" />
+                                                Our Services <FontAwesomeIcon icon={faLongArrowAltRight} />
                                             </Link>
                                         </div>
                                         {/* banner content */}
@@ -127,7 +128,7 @@ class Banner extends React.Component {
                                                 className="main-btn"
                                                 to={"services"}
                                             >
-                                                Our Services <i className="fal fa-long-arrow-right" />
+                                                Our Services <FontAwesomeIcon icon={faLongArrowAltRight} />
                                             </Link>
                                         </div>
                                         {/* banner content */}
@@ -147,14 +148,14 @@ class Banner extends React.Component {
                                     <div className="col-lg-9">
                                         <div className="banner-content">
                                             <span data-animation="fadeInLeft" data-delay="0.5s">
-                                                IT Business Consulting
+                                                Learning Environment Consulting
                                              </span>
                                             <h1
                                                 data-animation="fadeInLeft"
                                                 data-delay="0.9s"
                                                 className="title"
                                             >
-                                                Best IT Soluations <br />
+                                                Learning  <br />
                                                 Provider Agency
                                             </h1>
                                             <p data-animation="fadeInLeft" data-delay="1.3s">
@@ -168,7 +169,7 @@ class Banner extends React.Component {
                                                 className="main-btn"
                                                 to={"services"}
                                             >
-                                                Our Services <i className="fal fa-long-arrow-right" />
+                                                Our Services <FontAwesomeIcon icon={faLongArrowAltRight} />
                                             </Link>
                                         </div>
                                         {/* banner content */}

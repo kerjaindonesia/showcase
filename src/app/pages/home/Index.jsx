@@ -9,7 +9,7 @@ import SolutionPart from '../../componets/solutionPart/Index';
 import LatestServicesPart from '../../componets/LatestServicesPart/Index';
 import WhyChoosePart from '../../componets/whyChoosePart/Index';
 import CaseStudiesPart from '../../componets/CaseStudiesPart/Index'
-import TeamMemberPart from '../../componets/teamMemberPart/Index';
+// import TeamMemberPart from '../../componets/teamMemberPart/Index';
 import ContactUsPart from '../../componets/contactUsPart/Index';
 import OueChoosePart from '../../componets/OueChoosePart/Index';
 import MeetUsPart from '../../componets/MeetUsPart/Index';
@@ -31,7 +31,7 @@ class Index1 extends React.Component {
             <LatestServicesPart/>
             <WhyChoosePart/>
             <CaseStudiesPart/>
-            <TeamMemberPart/>
+            {/* <TeamMemberPart/> */}
             <ContactUsPart/>
             <OueChoosePart/>
             <MeetUsPart/>

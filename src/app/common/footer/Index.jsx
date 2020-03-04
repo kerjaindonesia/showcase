@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import logoKji from '../../../assets/images/logokji.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 class Footer extends React.Component {
 
@@ -12,14 +14,14 @@ class Footer extends React.Component {
           <div className="footer-overlay">
             <div className="container position-relative">
               <div className="row">
-                <div className="col-lg-4 col-md-7">
+                <div className="col-lg-6 col-md-7">
                   <div className="widget-item-1 mt-30">
                     <img src={logoKji} alt="" />
                     <p>The web has changed a lot since Vitaly posted his first article back in 2006. The team at Smashing has changed too, as have the things that we bring to our community onferences, books, and our membership added to the online magazine.</p>
                     <p>One thing that hasn’t changed is that we’re a small team — with most of us not working</p>
                   </div> {/* widget item 1 */}
                 </div>
-                <div className="col-lg-3 offset-lg-1 col-md-5">
+                {/* <div className="col-lg-3 offset-lg-1 col-md-5">
                   <div className="widget-item-2 mt-30">
                     <h4 className="title">Pages</h4>
                     <div className="footer-list">
@@ -38,9 +40,9 @@ class Footer extends React.Component {
                         <li><Link to={"affiliate"}><i className="fal fa-angle-right" /> Affiliate</Link></li>
                       </ul>
                     </div>
-                  </div> {/* widget item 2 */}
-                </div>
-                <div className="col-lg-4 col-md-6">
+                  </div> 
+                </div> */}
+                <div className="col-lg-6 col-md-7">
                   <div className="widget-item-2 widget-item-3 mt-30">
                     <h4 className="title">Working Hours</h4>
                     <ul>
@@ -49,7 +51,7 @@ class Footer extends React.Component {
                       <li>Sunday and holidays: 8:00 - 10:00</li>
                     </ul>
                     <p><span>For more then 30 years,</span> IT Service has been a reliable partner in the field of logistics and cargo forwarding.</p>
-                    <Link  to={"/"}><i className="fal fa-angle-right" />Discover More</Link>
+                    <Link  to={"/"}><FontAwesomeIcon icon={faAngleRight} />  Discover More</Link>
                   </div> {/* widget item 3 */}
                 </div>
               </div> {/* row */}

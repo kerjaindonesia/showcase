@@ -19,7 +19,7 @@ class LatestServicesPart extends React.Component {
                   <div className="services-title-item text-center">
                     <div className="ring-shape" />
                     <span>Our latest services</span>
-                    <h3 className="title">We Offer Better Soluation For Your IT Business</h3>
+                    <h3 className="title">We Offer Better Soluation For Your Skill Development</h3>
                   </div> 
                 </div>
               </div> 

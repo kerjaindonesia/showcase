@@ -8,7 +8,7 @@ import {
     faBars,
     faEnvelope,
     faPhone,
-    faSearch,
+    // faSearch,
     faShoppingCart,
     faArrowRight
 } from '@fortawesome/free-solid-svg-icons';
@@ -115,11 +115,11 @@ class Header extends React.Component {
                                                 <FontAwesomeIcon icon={faShoppingCart} className="mr-1" />
                                             </a>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link to={"/"}>
                                                 <FontAwesomeIcon icon={faSearch} className="mr-1" />
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li className="d-none d-md-block d-lg-none">
                                             <Link to={"/"}>
                                                 <FontAwesomeIcon icon={faBars} className="mr-1" />
