@@ -34,7 +34,7 @@ class Nav extends React.Component {
                         {/* sub menu */}
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to={'/'}>Products</Link>
+                        <Link className="nav-link" to={'/case-study'}>Products</Link>
                         <ul className="sub-menu">
                             <li>
                                 <Link to={'/case-study'}>case study</Link>
@@ -74,9 +74,9 @@ class Nav extends React.Component {
                         </ul>
                         {/* sub menu */}
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link className="nav-link" to={'/blog-standard'}>Blog</Link>
-                        {/* <ul className="sub-menu">
+                        <ul className="sub-menu">
                             <li>
                                 <Link to={'/blog-standard'}>Blog Standard</Link>
                             </li>
@@ -86,9 +86,8 @@ class Nav extends React.Component {
                             <li>
                                 <Link to={'/blog-details'}>Blog Details</Link>
                             </li>
-                        </ul> */}
-                        {/* sub menu */}
-                    </li>
+                        </ul>
+                    </li> */}
                     <li className="nav-item">
                         <Link className="nav-link" to={'/contact'}>Contact</Link>
                     </li>

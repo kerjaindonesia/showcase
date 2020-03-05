@@ -12,8 +12,8 @@ import WhyChoosePart from '../../componets/whyChoosePart/Index';
 // import TeamMemberPart from '../../componets/teamMemberPart/Index';
 import ContactUsPart from '../../componets/contactUsPart/Index';
 import OueChoosePart from '../../componets/OueChoosePart/Index';
-import MeetUsPart from '../../componets/MeetUsPart/Index';
-import LatestNewsPart from '../../componets/latestNewsPart/Index';
+// import MeetUsPart from '../../componets/MeetUsPart/Index';
+// import LatestNewsPart from '../../componets/latestNewsPart/Index';
 import Brand2Part from '../../componets/brand2Part/Index';
 import Preloader from "../../common/preloader/Index";
 
@@ -32,10 +32,10 @@ class Index1 extends React.Component {
             <WhyChoosePart/>
             {/* <CaseStudiesPart/> */}
             {/* <TeamMemberPart/> */}
-            <ContactUsPart/>
             <OueChoosePart/>
-            <MeetUsPart/>
-            <LatestNewsPart/>
+            {/* <MeetUsPart/> */}
+            <ContactUsPart/>
+            {/* <LatestNewsPart/> */}
             <Brand2Part/>
             <Footer />
             </>

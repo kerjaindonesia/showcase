@@ -5,7 +5,7 @@ import ServicesOptimizationPart from '../../componets/servicesOptimizationPart/I
 import IntroVideoPart from '../../componets/introVideoPart/Index';
 import ServicesPlansPart from '../../componets/servicesPart/ServicesPlansPart';
 import ServicesItemPart from '../../componets/servicesItemPart/Index';
-import LatestNewsPart from '../../componets/latestNewsPart/Index';
+// import LatestNewsPart from '../../componets/latestNewsPart/Index';
 import { Link } from 'react-router-dom';
 
 
@@ -51,7 +51,7 @@ class ServicesDetails extends React.Component {
             <ServicesOptimizationPart/>
             <IntroVideoPart/>
             <ServicesPlansPart/>
-            <LatestNewsPart/>
+            {/* <LatestNewsPart/> */}
             <Footer/>
             </>
          );
