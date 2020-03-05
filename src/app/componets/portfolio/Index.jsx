@@ -3,6 +3,7 @@ import ModalVideo from 'react-modal-video'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPlay} from "@fortawesome/free-solid-svg-icons";
+import backgroundVideo from '../../../assets/images/video-bg.jpg'
 
 class PortfolioPart extends React.Component {
       
@@ -25,7 +26,7 @@ class PortfolioPart extends React.Component {
           <>
             <div
             className="video-area bg_cover"
-            style={{ backgroundImage: "url(assets/images/video-bg.jpg)" }}
+            style={{ backgroundImage: `url(${backgroundVideo})` }}
           >
             <div className="container">
               <div className="row justify-content-center">
@@ -47,10 +48,10 @@ class PortfolioPart extends React.Component {
             </div>
             {/* container */}
             <div className="video-thumb-1">
-              <img src="/assets/images/video-item-1.png" alt="" />
+              <img src="/assets/images/video-item-1.png" alt="1" />
             </div>
             <div className="video-thumb-2">
-              <img src="/assets/images/video-item-2.png" alt="" />
+              <img src="/assets/images/video-item-2.png" alt="2" />
             </div>
           </div>
          
@@ -61,7 +62,7 @@ class PortfolioPart extends React.Component {
                 <div className="col-lg-4">
                   <div className="single-portfolio mb-30">
                     <div className="portfolio-thumb">
-                      <img src="/assets/images/portfolio-1.jpg" alt="" />
+                      <img src="/assets/images/portfolio-1.jpg" alt="sad" />
                     </div>
                     <div className="portfolio-content">
                       <span>Digital Computing</span>
@@ -79,7 +80,7 @@ class PortfolioPart extends React.Component {
                 <div className="col-lg-4">
                   <div className="single-portfolio mb-30">
                     <div className="portfolio-thumb">
-                      <img src="assets/images/portfolio-2.jpg" alt="" />
+                      <img src="/assets/images/portfolio-2.jpg" alt="ss" />
                     </div>
                     <div className="portfolio-content">
                       <span>it consultant</span>
@@ -97,7 +98,7 @@ class PortfolioPart extends React.Component {
                 <div className="col-lg-4">
                   <div className="single-portfolio mb-30">
                     <div className="portfolio-thumb">
-                      <img src="assets/images/portfolio-3.jpg" alt="" />
+                      <img src="/assets/images/portfolio-3.jpg" alt="" />
                     </div>
                     <div className="portfolio-content">
                       <span>design &amp; development</span>

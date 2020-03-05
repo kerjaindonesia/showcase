@@ -11,7 +11,7 @@ import Index4 from './pages/home/Index-4';
 import AboutPage from './pages/about/About';
 import ContactPage from './pages/Contact';
 import ServicesDetails from './pages/service/Details';
-import CaseStudy from './pages/Case-study';
+import Cases from './pages/Cases';
 import CaseDetails from './pages/Case-details';
 import ComingSoon from './pages/Coming-soon';
 import FaqPage from './pages/Faq';
@@ -43,7 +43,7 @@ class App extends Component {
 				  <Route path={`/about`} component={AboutPage}/>
 				  <Route path={`/services-details`} component={ServicesDetails}/>
 
-				  <Route path={`/case-study`} component={CaseStudy}/>
+				  <Route path={`/cases`} component={Cases}/>
 				  <Route path={`/case-details`} component={CaseDetails}/>
 				  <Route path={`/coming-soon`} component={ComingSoon}/>
 				  <Route path={`/error`} component={NoMatch}/>

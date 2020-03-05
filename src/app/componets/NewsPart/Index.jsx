@@ -10,7 +10,7 @@ class NewsPart extends React.Component {
               <div className="row justify-content-center">
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/news-1.jpg" alt="" />
+                    <img src="/assets/images/news-1.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -25,7 +25,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/news-2.jpg" alt="" />
+                    <img src="/assets/images/news-2.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -40,7 +40,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-1.jpg" alt="" />
+                    <img src="/assets/images/case-study-1.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -55,7 +55,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-2.jpg" alt="" />
+                    <img src="/assets/images/case-study-2.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -70,7 +70,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-3.jpg" alt="" />
+                    <img src="/assets/images/case-study-3.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -85,7 +85,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-4.jpg" alt="" />
+                    <img src="/assets/images/case-study-4.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -100,7 +100,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-5.jpg" alt="" />
+                    <img src="/assets/images/case-study-5.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -115,7 +115,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-6.jpg" alt="" />
+                    <img src="/assets/images/case-study-6.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -130,7 +130,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-7.jpg" alt="" />
+                    <img src="/assets/images/case-study-7.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -145,7 +145,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-8.jpg" alt="" />
+                    <img src="/assets/images/case-study-8.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -160,7 +160,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-9.jpg" alt="" />
+                    <img src="/assets/images/case-study-9.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -175,7 +175,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-10.jpg" alt="" />
+                    <img src="/assets/images/case-study-10.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -190,7 +190,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-11.jpg" alt="" />
+                    <img src="/assets/images/case-study-11.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -205,7 +205,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-12.jpg" alt="" />
+                    <img src="/assets/images/case-study-12.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
@@ -220,7 +220,7 @@ class NewsPart extends React.Component {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-9">
                   <div className="single-news mt-30">
-                    <img src="assets/images/case-study-2.jpg" alt="" />
+                    <img src="/assets/images/case-study-2.jpg" alt="" />
                     <div className="single-news-overlay">
                       <span>Design/SEO</span>
                       <h5 className="title">
