@@ -154,13 +154,12 @@ class OueChoosePart extends React.Component {
                                             data-wow-delay="0s"
                                         >
                                             <sub>
-                                                <span className="counter">569</span> <sup>+</sup>
+                                                <span className="counter">30</span> <sup>+</sup>
                                             </sub>
-                                            <span>Projct Complate</span>
+                                            <span>Project Complate</span>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit
-                                                voluptsantium doloremque laudantium
-                          </p>
+                                                Kami sangat berpengalaman dalam bidang edukasi dan digitalisasi
+                                            </p>
                                         </div>
                                         <div
                                             className="our-choose-counter wow slideInUp mt-55"
@@ -168,13 +167,12 @@ class OueChoosePart extends React.Component {
                                             data-wow-delay="0s"
                                         >
                                             <sub>
-                                                <span className="counter">783</span> <sup>+</sup>
+                                                <span className="counter">50</span> <sup>+</sup>
                                             </sub>
                                             <span>Business Partners</span>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit
-                                                voluptsantium doloremque laudantium
-                          </p>
+                                                Dengan dukungan partner bisnis kami adalah kekuatan yang solid
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="col-md-6 col-sm-6">
@@ -188,9 +186,8 @@ class OueChoosePart extends React.Component {
                                             </sub>
                                             <span>Happy Clients</span>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit
-                                                voluptsantium doloremque laudantium
-                          </p>
+                                                Client selalu merasa puas dan terbantukan dengan dukungan 7 x 24 jam
+                                            </p>
                                         </div>
                                         <div
                                             className="our-choose-counter wow slideInUp mt-55"
@@ -198,12 +195,11 @@ class OueChoosePart extends React.Component {
                                             data-wow-delay="0s"
                                         >
                                             <sub>
-                                                <span className="counter">894</span> <sup>+</sup>
+                                                <span className="counter">100</span> <sup>+</sup>
                                             </sub>
-                                            <span>IT Consultant</span>
+                                            <span>Content Provider</span>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit
-                                                voluptsantium doloremque laudantium
+                                                Konten yang kami miliki berstandar internasional dan lulus uji kelayakan
                           </p>
                                         </div>
                                     </div>

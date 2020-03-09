@@ -65,13 +65,13 @@ class PortfolioPart extends React.Component {
                       <img src="/assets/images/portfolio-1.jpg" alt="sad" />
                     </div>
                     <div className="portfolio-content">
-                      <span>Digital Computing</span>
+                      <span>LMS Platform</span>
                       <h5 className="title">
-                        Aspects of computing and technology and the term
+                        Integrated Learning Management System
                       </h5>
                       <p>
                         Today, the term Information Technology (IT) has ballooned to
-                        encompass many aspects of computing
+                        encompass many aspects of Learning experience
                       </p>
                     </div>
                   </div>
@@ -83,13 +83,12 @@ class PortfolioPart extends React.Component {
                       <img src="/assets/images/portfolio-2.jpg" alt="ss" />
                     </div>
                     <div className="portfolio-content">
-                      <span>it consultant</span>
+                      <span>Marketplace</span>
                       <h5 className="title">
-                        Today, the term Inform tion Technology (IT)
+                        Where source of education meet
                       </h5>
                       <p>
-                        Today, the term Information Technology (IT) has ballooned to
-                        encompass many aspects of computing
+                        selected third parties and multichannel content coreator provide succesfull materials
                       </p>
                     </div>
                   </div>
@@ -101,11 +100,11 @@ class PortfolioPart extends React.Component {
                       <img src="/assets/images/portfolio-3.jpg" alt="" />
                     </div>
                     <div className="portfolio-content">
-                      <span>design &amp; development</span>
+                      <span>Content Digitalization</span>
                       <h5 className="title">Has ballooned to encomp ass many aspects</h5>
                       <p>
                         Today, the term Information Technology (IT) has ballooned to
-                        encompass many aspects of computing
+                        encompass many aspects of digitalization
                       </p>
                     </div>
                   </div>

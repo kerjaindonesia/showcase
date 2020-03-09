@@ -35,7 +35,7 @@ class CaseStudy extends React.Component {
                 </div>
 
                 <Portfolio />
-                <NewsPart />
+                {/* <NewsPart /> */}
                 <Footer />
             </>
         );

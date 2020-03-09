@@ -111,7 +111,7 @@ class Header extends React.Component {
                                 <div className="bar-area d-none d-xl-block">
                                     <ul>
                                         <li>
-                                            <a href='https://dev.kerjaindonesia.xyz' rel='noopener noreferrer' target='_blank'>
+                                            <a href='https://marketplace.kerjaindonesia.id' rel='noopener noreferrer' target='_blank'>
                                                 <FontAwesomeIcon icon={faShoppingCart} className="mr-1" />
                                             </a>
                                         </li>

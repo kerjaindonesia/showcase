@@ -46,11 +46,11 @@ class ContactUsPart extends React.Component {
                                     </div>
                                     <div className="contact-form-area">
                                         <form action="" onSubmit={this.formHandle}>
-                                            <div className="input-title">
+                                            {/* <div className="input-title">
                                                 <h3 className="title">
                                                     Say Hello......
-                          </h3>
-                                            </div>
+                                                </h3>
+                                            </div> */}
                                             {/* input title */}
                                             <div className="row">
                                                 <div className="col-lg-6">
@@ -124,7 +124,7 @@ class ContactUsPart extends React.Component {
                                                             data-wow-delay="0s"
                                                             type="submit"
                                                         >
-                                                            Send Message
+                                                            Kirim Pesan
                                 <FontAwesomeIcon icon={faLongArrowAltRight} className={`pl-1`} style={{
                                                                 position: "absolute",
                                                                 right: "0",

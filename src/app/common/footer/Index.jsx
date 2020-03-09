@@ -46,8 +46,7 @@ class Footer extends React.Component {
                                         <h5 className="title">Working Hours</h5>
                                         <ul>
                                             <li>Monday - Friday: 7:00 - 17:00</li>
-                                            <li>Saturday: 7:00 - 12:00</li>
-                                            <li>Sunday and holidays: 8:00 - 10:00</li>
+                                            <li>Saturday and holidays: 8:00 - 10:00</li>
                                         </ul>
                                         {/* <p><span>For more then 30 years,</span> IT Service has been a reliable partner in the field of logistics and cargo forwarding.</p>
                                         <Link to={"/"}><FontAwesomeIcon icon={faAngleRight} />  Discover More</Link> */}
